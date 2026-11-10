@@ -1,19 +1,23 @@
 # Trendgenix
 
-Trendgenix puts campaign planning, agent chat and creator decisions in one workspace.
+Plan a creator campaign from brief to pitch. Trendgenix helps brands, agencies, and independent marketers decide what to launch, who to work with, and what to test before outreach.
 
-[Watch the one-minute walkthrough](media/trendgenix-walkthrough.mp4) · [Register Pro interest](https://github.com/TrendgenixHQ/trendgenix-showcase/issues/new?title=Trendgenix%20Pro%20interest&body=Tell%20us%20which%20campaign%20planning%20step%20you%20would%20like%20help%20with.%20Please%20share%20only%20information%20you%20are%20comfortable%20making%20public.) · [Discuss a custom project](https://github.com/TrendgenixHQ/trendgenix-showcase/issues/new?title=Custom%20workflow%20inquiry&body=Briefly%20describe%20the%20workflow%20you%20would%20like%20to%20improve%20and%20what%20a%20useful%20outcome%20would%20look%20like.%20Please%20keep%20confidential%20details%20out%20of%20this%20public%20issue.)
+**[Watch the 59-second demo](media/trendgenix-walkthrough.mp4)** · **[Request a Pro pilot](https://github.com/TrendgenixHQ/trendgenix-showcase/issues/new?template=pro-pilot.yml)** · **[Discuss a custom build](https://github.com/TrendgenixHQ/trendgenix-showcase/issues/new?template=custom-build.yml)**
+
+| Agent | What it helps you decide | What you can review in the demo |
+| --- | --- | --- |
+| **Campaign Creator Agent** | Which campaign direction fits your brief and audience? | Clarifying questions, three directions, and an agent chat comparison. **0:07–0:32** |
+| **Influencer Reach & Deal Agent** | Which creators fit, and what pitch is worth approving? | A ranked shortlist, creator dossiers, indicative rates, and an editable pitch with an approval step. **0:37–0:46** |
+| **Data Analysis & Creative Agent** | Which hook should you test, and what early signals matter? | A beat-by-beat 9:16 storyboard, projected reach, and sample replies and learnings. **0:32–0:37 · 0:46–0:52** |
 
 ![Trendgenix Directions Arena with three sample directions and the Campaign Agent chat](media/trendgenix-showcase.png)
 
-## Follow one campaign
+The walkthrough follows a fictional skincare campaign. Creator profiles, rates, reach, and replies are illustrative. You can watch it without a Trendgenix account.
 
-Start with a skincare brief and choose a creative angle. Compare directions in the Campaign Agent chat, inspect a 9:16 storyboard, and shortlist a creator. Edit and approve a sample pitch, then review projected reach and simulated replies. The walkthrough also shows the campaign sidebar, sample proposal and creator CRM.
+## Try it on one campaign
 
-The video uses a fictional campaign. Creator profiles, performance figures and outreach replies are illustrative.
+**Pro pilot.** Bring a short, anonymized brief. We’ll look at how your team chooses a direction, evaluates creator fit, and approves a draft pitch. [Request a Pro pilot](https://github.com/TrendgenixHQ/trendgenix-showcase/issues/new?template=pro-pilot.yml)
 
-## Work with us
+**Custom build.** Tell us which part of your creator or agency workflow you want to improve and what a useful result would look like. [Discuss a custom build](https://github.com/TrendgenixHQ/trendgenix-showcase/issues/new?template=custom-build.yml)
 
-**Pro pilots.** Tell us which part of campaign planning you want to improve. We’re interested in hearing from marketers, agencies, and product teams.
-
-**Custom projects.** We build tailored agent workflows for teams that need research, drafts, and human approval in one workspace. Share a brief, public description of the problem you want to solve.
+GitHub inquiries are public. Share a general description of the work and keep client details, account information, and credentials private.

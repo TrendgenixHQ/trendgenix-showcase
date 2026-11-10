@@ -1,0 +1,26 @@
+name: Request a Pro pilot
+description: Tell us what you would like to test on one creator campaign.
+title: "Pro pilot: "
+body:
+  - type: markdown
+    attributes:
+      value: This inquiry is public. Describe your campaign in general terms and keep client details, account information, and credentials private.
+  - type: dropdown
+    id: team
+    attributes:
+      label: Who is the pilot for?
+      options:
+        - Brand or in-house marketing team
+        - Agency or consultancy
+        - Independent marketer or creator
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would make the pilot useful?
+      description: Tell us your campaign goal and the decision you want help with.
+      placeholder: We want to shortlist creators for a product launch and review a first pitch.
+    validations:
+      required: true

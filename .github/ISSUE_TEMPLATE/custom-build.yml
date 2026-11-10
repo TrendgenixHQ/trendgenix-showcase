@@ -1,0 +1,20 @@
+name: Discuss a custom build
+description: Describe a workflow you want Trendgenix to help with.
+title: "Custom build: "
+body:
+  - type: markdown
+    attributes:
+      value: This inquiry is public. Use a general description and keep confidential or account information private.
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What workflow would you like to improve?
+      description: Describe the people involved, the manual work, and the result you want.
+      placeholder: Our team reviews creator shortlists across client accounts. We want a consistent review and approval process.
+    validations:
+      required: true
+  - type: input
+    id: timing
+    attributes:
+      label: When would you like to start?
+      placeholder: For example, next campaign cycle.
