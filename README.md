@@ -1,18 +1,25 @@
 # Trendgenix
 
-Plan a creator campaign from brief to pitch. Trendgenix helps brands, agencies, and independent marketers decide what to launch, who to work with, and what to test before outreach.
+An agentic workspace for campaign creation, influencer discovery and deal preparation, and creative analysis.
 
-**[Watch the 59-second demo](media/trendgenix-walkthrough.mp4)** · **[Request a Pro pilot](https://github.com/TrendgenixHQ/trendgenix-showcase/issues/new?template=pro-pilot.yml)** · **[Discuss a custom build](https://github.com/TrendgenixHQ/trendgenix-showcase/issues/new?template=custom-build.yml)**
+![Trendgenix campaign walkthrough — automatically playing preview](media/trendgenix-preview.gif)
 
-| Agent | What it helps you decide | What you can review in the demo |
-| --- | --- | --- |
-| **Campaign Creator Agent** | Which campaign direction fits your brief and audience? | Clarifying questions, three directions, and an agent chat comparison. **0:07–0:32** |
-| **Influencer Reach & Deal Agent** | Which creators fit, and what pitch is worth approving? | A ranked shortlist, creator dossiers, indicative rates, and an editable pitch with an approval step. **0:37–0:46** |
-| **Data Analysis & Creative Agent** | Which hook should you test, and what early signals matter? | A beat-by-beat 9:16 storyboard, projected reach, and sample replies and learnings. **0:32–0:37 · 0:46–0:52** |
+<details>
+<summary>Watch the full-resolution 59-second video</summary>
 
-![Trendgenix Directions Arena with three sample directions and the Campaign Agent chat](media/trendgenix-showcase.png)
+https://github.com/user-attachments/assets/4ce2838d-41b5-499b-9495-2ae991604b07
 
-The walkthrough follows a fictional skincare campaign. Creator profiles, rates, reach, and replies are illustrative. You can watch it without a Trendgenix account.
+</details>
+
+The walkthrough uses a fictional campaign with illustrative creators, rates, and performance data.
+
+## Agentic architecture
+
+A persistent manager agent coordinates campaign work through model-selected tools, on-demand skills, and specialist agents for research, critique, and revision. OpenAI's Responses API provides reasoning and schema-validated outputs that feed an interactive agent chat and campaign canvas.
+
+Cloudflare's Agents SDK, Durable Objects, and Workflows support stateful conversations and resumable execution. D1 stores campaign memory, source evidence, decisions, and checkpoints. Research and generation run within explicit usage budgets, with human approval for campaign decisions and external actions.
+
+The TypeScript workspace uses Next.js and React, with a real-time agent interface for comparing directions, exploring storyboards, reviewing creators, and refining drafts.
 
 ## Try it on one campaign
 
