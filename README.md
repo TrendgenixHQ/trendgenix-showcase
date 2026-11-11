@@ -17,10 +17,6 @@ The walkthrough uses a fictional campaign with illustrative creators, rates, and
 
 A persistent manager agent coordinates campaign work through model-selected tools, on-demand skills, and specialist agents for research, critique, and revision. OpenAI's Responses API provides reasoning and schema-validated outputs that feed an interactive agent chat and campaign canvas.
 
-Cloudflare's Agents SDK, Durable Objects, and Workflows support stateful conversations and resumable execution. D1 stores campaign memory, source evidence, decisions, and checkpoints. Research and generation run within explicit usage budgets, with human approval for campaign decisions and external actions.
-
-The TypeScript workspace uses Next.js and React, with a real-time agent interface for comparing directions, exploring storyboards, reviewing creators, and refining drafts.
-
 ## Try it on one campaign
 
 **Pro pilot.** Bring a short, anonymized brief. We’ll look at how your team chooses a direction, evaluates creator fit, and approves a draft pitch. [Request a Pro pilot](https://github.com/TrendgenixHQ/trendgenix-showcase/issues/new?template=pro-pilot.yml)
